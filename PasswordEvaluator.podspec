@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PasswordEvaluator'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'PasswordEvaluator a cocoapod lib to validate password strength.'
 
 # This description is used to generate tags and improve search results.
@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'PasswordEvaluator/Classes/**/*.{h,m,swift}'
+  s.source_files = 'PasswordEvaluator/Classes/**/*'
 end

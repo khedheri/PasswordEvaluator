@@ -22,7 +22,7 @@ pod 'PasswordEvaluator'
 
 ## Author
 
-khedheri, nader.khedhiri@bitbasegroup.com
+khedheri, khedheri.nader@gmail.com
 
 ## License
 
