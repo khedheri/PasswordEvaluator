@@ -1,0 +1,16 @@
+PODS:
+  - PasswordEvaluator (0.1.0)
+
+DEPENDENCIES:
+  - PasswordEvaluator (from `../`)
+
+EXTERNAL SOURCES:
+  PasswordEvaluator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PasswordEvaluator: 517d10faa4830974191fab6638e4677e6f87872d
+
+PODFILE CHECKSUM: 478f5b4f4eb2d3b9011c1b0882ba85a7e47b38e4
+
+COCOAPODS: 1.10.1
