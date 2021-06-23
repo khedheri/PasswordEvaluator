@@ -37,7 +37,7 @@
 
 You can customise:
 
-1 - progress Bar Height
+1 - progress Bar Height\n
 2 - progress View Spacing
 3 - progress View And Title Spacing
 4 - title font
