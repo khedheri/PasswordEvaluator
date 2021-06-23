@@ -42,15 +42,25 @@ You can customise:
 2 - progress View Spacing
 
 3 - progress View And Title Spacing
+
 4 - title font
+
 5 - hide Title Label (Hide the strength title)
+
 6 - progress Background Color
+
 7 - very Weak Color
+
 8 - weak color
+
 9 - reasonable Color
+
 10 - strong color
+
 11 - strength title strings
+
 12 - regex for each strength level
+
 
 ## Example
 
