@@ -1,5 +1,5 @@
 PODS:
-  - PasswordEvaluator (0.0.1)
+  - PasswordEvaluator (0.0.2)
 
 DEPENDENCIES:
   - PasswordEvaluator (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PasswordEvaluator: 06ef2a0024a521053e47088af577b9c2bd76eeab
+  PasswordEvaluator: 030ccba350a5e81fe4703d50a9a2550146d8a625
 
 PODFILE CHECKSUM: 478f5b4f4eb2d3b9011c1b0882ba85a7e47b38e4
 

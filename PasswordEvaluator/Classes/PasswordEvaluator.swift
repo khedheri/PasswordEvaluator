@@ -305,13 +305,13 @@ public class PasswordEvaluator: UIView {
         case .empty:
             return "Empty"
         case .veryWeak:
-            return "Very Weak"
+            return self.firstViewString
         case .weak:
-            return "Weak"
+            return self.secondViewTitleString
         case .reasonable:
-            return "Reasonable"
+            return self.thirdViewTitleString
         case .strong:
-            return "Strong"
+            return self.fourthViewTitleString
         }
     }
 }

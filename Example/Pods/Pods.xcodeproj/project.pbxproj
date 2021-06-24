@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D98D24ACE4DB3E97917983FD065AA5 /* PasswordStrengthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301677E12FF482841463392F8EE87A6 /* PasswordStrengthManager.swift */; };
 		2B0F579E0D6A19F1AF5668400756C259 /* Pods-PasswordEvaluator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B53ED9FE78639FD4194460DD467D5BA /* Pods-PasswordEvaluator_Example-dummy.m */; };
 		302AB4F7EADF0FC970F7317324E990FE /* Pods-PasswordEvaluator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C03F1BCD94E12B7DAFBF2E2812AB12 /* Pods-PasswordEvaluator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA8B174C6BA8BE4BF5E36D47873B795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		43D8BEBD4F41644A446B4AB15ED78422 /* Pods-PasswordEvaluator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19379086F187CD15108E6ECE75D4F4D1 /* Pods-PasswordEvaluator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		449E84F658B2125ED1F76BC1BF8EE41D /* PlainHorizontalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6223DD5CF6838A56A6B3941D0DCAD /* PlainHorizontalProgressBar.swift */; };
+		581DF1916A26E4A74C48EB14DD7133A5 /* PasswordEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC3B6B6E9975AF020B1FD635E44207 /* PasswordEvaluator.swift */; };
 		83BA89CD781459998164034D84627EB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		88E1ABDCFCD6777A7A6865F032DBEB46 /* PasswordEvaluator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2640DF9735D0CAD4E94610A191FE37 /* PasswordEvaluator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D99D14F3E7A0C3B7B52880991049EDB4 /* PasswordEvaluator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD88277FC6217FACF0054A923119A73 /* PasswordEvaluator-dummy.m */; };
@@ -42,32 +45,35 @@
 		27E644C393BCB89A55C4EDD45DE04DE9 /* Pods-PasswordEvaluator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordEvaluator_Example-Info.plist"; sourceTree = "<group>"; };
 		28C767B72975AE53872C0F7678843473 /* PasswordEvaluator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PasswordEvaluator-Info.plist"; sourceTree = "<group>"; };
 		2C0647D8048836722F8FD445E27539D7 /* PasswordEvaluator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordEvaluator.release.xcconfig; sourceTree = "<group>"; };
+		3301677E12FF482841463392F8EE87A6 /* PasswordStrengthManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordStrengthManager.swift; path = PasswordEvaluator/Classes/PasswordStrengthManager.swift; sourceTree = "<group>"; };
 		38BA70139609BA38E4595FC348848031 /* PasswordEvaluator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordEvaluator-prefix.pch"; sourceTree = "<group>"; };
+		44A6223DD5CF6838A56A6B3941D0DCAD /* PlainHorizontalProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlainHorizontalProgressBar.swift; path = PasswordEvaluator/Classes/PlainHorizontalProgressBar.swift; sourceTree = "<group>"; };
 		553B0CFA04407FAE70216AB26CAC203C /* Pods-PasswordEvaluator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordEvaluator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		581BA09ABA0F681210437DB82FDB10B9 /* Pods-PasswordEvaluator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordEvaluator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		67877C9474F732E0ACDCCA335E70823A /* Pods-PasswordEvaluator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasswordEvaluator_Tests-dummy.m"; sourceTree = "<group>"; };
 		6C2640DF9735D0CAD4E94610A191FE37 /* PasswordEvaluator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordEvaluator-umbrella.h"; sourceTree = "<group>"; };
-		6D7F6F7260AB1349869A5BF11D8EFF4B /* Pods_PasswordEvaluator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordEvaluator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7F6F7260AB1349869A5BF11D8EFF4B /* Pods_PasswordEvaluator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PasswordEvaluator_Example.framework; path = "Pods-PasswordEvaluator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC7C4B6A7474ACE6750D4A08D0E4546 /* Pods-PasswordEvaluator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordEvaluator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7299E81E6BBE959AF2523E17D2F0BCAD /* PasswordEvaluator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasswordEvaluator.modulemap; sourceTree = "<group>"; };
 		72C8D90E7278810A4E51C4A51FA1E2AB /* Pods-PasswordEvaluator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasswordEvaluator_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78FC3B6B6E9975AF020B1FD635E44207 /* PasswordEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordEvaluator.swift; path = PasswordEvaluator/Classes/PasswordEvaluator.swift; sourceTree = "<group>"; };
 		7B53ED9FE78639FD4194460DD467D5BA /* Pods-PasswordEvaluator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasswordEvaluator_Example-dummy.m"; sourceTree = "<group>"; };
 		85C03F1BCD94E12B7DAFBF2E2812AB12 /* Pods-PasswordEvaluator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasswordEvaluator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		91CE0BAB6A9D6FEB1660C14089245D77 /* Pods-PasswordEvaluator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasswordEvaluator_Tests-Info.plist"; sourceTree = "<group>"; };
 		9CD88277FC6217FACF0054A923119A73 /* PasswordEvaluator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasswordEvaluator-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8FD5EFB9140B5CC875CF247B895AAD9 /* PasswordEvaluator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PasswordEvaluator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8FD5EFB9140B5CC875CF247B895AAD9 /* PasswordEvaluator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PasswordEvaluator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB70BEECEE7351C01BD0FA6CBE88F1CC /* Pods-PasswordEvaluator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PasswordEvaluator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AC88D23D10619AB02B924F1C72D85BB7 /* Pods-PasswordEvaluator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasswordEvaluator_Tests.modulemap"; sourceTree = "<group>"; };
 		B370A82DA649624BE3FF5302B632BA9E /* Pods-PasswordEvaluator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasswordEvaluator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B56253BB8CD613C558D7801FB02A6CB3 /* PasswordEvaluator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordEvaluator.debug.xcconfig; sourceTree = "<group>"; };
 		B8DC764E5E4D06923C95C3F25A573542 /* Pods-PasswordEvaluator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasswordEvaluator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C2C3ED97858A1E3CB35F30AFD69D3360 /* Pods_PasswordEvaluator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordEvaluator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2BD27BA528FC308B15B3C909F8B5CEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D4AB5F8D8761502D713FB7F7DA62E448 /* PasswordEvaluator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PasswordEvaluator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C3ED97858A1E3CB35F30AFD69D3360 /* Pods_PasswordEvaluator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PasswordEvaluator_Tests.framework; path = "Pods-PasswordEvaluator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BD27BA528FC308B15B3C909F8B5CEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4AB5F8D8761502D713FB7F7DA62E448 /* PasswordEvaluator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PasswordEvaluator.framework; path = PasswordEvaluator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC833D99CE9EE1DC681A9039BF160ACB /* Pods-PasswordEvaluator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasswordEvaluator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED6BAD9585FC5015C6745549CB7298AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		ED6BAD9585FC5015C6745549CB7298AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 		425A03C7BECF67DFFF050ABC48C0348C /* PasswordEvaluator */ = {
 			isa = PBXGroup;
 			children = (
+				78FC3B6B6E9975AF020B1FD635E44207 /* PasswordEvaluator.swift */,
+				3301677E12FF482841463392F8EE87A6 /* PasswordStrengthManager.swift */,
+				44A6223DD5CF6838A56A6B3941D0DCAD /* PlainHorizontalProgressBar.swift */,
 				03EBE6C4BCE061FB506DC2F878240BFD /* Pod */,
 				0D5CDB8B9516266535F1955C3F7F0364 /* Support Files */,
 			);
@@ -381,6 +390,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99D14F3E7A0C3B7B52880991049EDB4 /* PasswordEvaluator-dummy.m in Sources */,
+				581DF1916A26E4A74C48EB14DD7133A5 /* PasswordEvaluator.swift in Sources */,
+				19D98D24ACE4DB3E97917983FD065AA5 /* PasswordStrengthManager.swift in Sources */,
+				449E84F658B2125ED1F76BC1BF8EE41D /* PlainHorizontalProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,7 +726,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
