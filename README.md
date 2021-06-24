@@ -9,7 +9,9 @@
 
 ## short Integration steps
 
-1 - add container view just in the bottom of the textfield
+1 - add container view just in the bottom of the textfield 
+
+**Recommendation: container view height = 28**
 
 <img width="304" alt="1" src="https://user-images.githubusercontent.com/86120731/123118920-593d0280-d443-11eb-8ff2-3f435ef9bde4.png">
 
