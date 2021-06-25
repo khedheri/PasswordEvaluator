@@ -31,9 +31,15 @@
 
 5 - or in case you use RxSwift
 
- textField.rx.text.changed.subscribe(onNext: { (password) in
-            self.containerView.updatePasswordEvaluatorView(password: password)
+ 
+ 
+ 
+        passwordTextField.rx.text.changed.subscribe(onNext: { (password) in
+        
+            self.passwordEvaluatorView.updatePasswordEvaluatorView(password: password ?? "")
+            
         }).disposed(by: disposeBag)
+        
         
 ## Customization:
 
