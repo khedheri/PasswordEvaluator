@@ -34,12 +34,10 @@ public class PasswordEvaluator: UIView {
         parentStackView.addArrangedSubview(progressStackView)
         parentStackView.addArrangedSubview(labelsStackView)
         
+        parentStackView.frame = self.bounds
+        parentStackView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        
         addSubview(parentStackView)
-        parentStackView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
-        parentStackView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
-        parentStackView.topAnchor.constraint(equalTo: topAnchor, constant: 2.0).isActive = true
-        parentStackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 2.0).isActive = true
-
     }
     
     @IBInspectable public var passwordEvaluatorTitleText: String = "passwordStrength" {
@@ -63,9 +61,9 @@ public class PasswordEvaluator: UIView {
         }
     }
     
-    @IBInspectable public var progressViewAndTitleSpacing: CGFloat = 4.0 {
+    @IBInspectable public var progressViewAndTitleSpacing: CGFloat = 1.0 {
         didSet {
-            parentStackView.spacing = self.progressViewSpacing
+            parentStackView.spacing = self.progressViewAndTitleSpacing
         }
     }
     
@@ -207,7 +205,6 @@ public class PasswordEvaluator: UIView {
         progressBar.progress = 0
         progressBar.color = self.strongColor
         progressBar.backgroundColor = self.progressBackgroundColor
-        
         return progressBar
     }()
     
@@ -217,7 +214,6 @@ public class PasswordEvaluator: UIView {
         stackView.alignment = .fill
         stackView.distribution = .fillEqually
         stackView.spacing = self.progressViewSpacing
-        stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()
     
@@ -242,8 +238,7 @@ public class PasswordEvaluator: UIView {
         stackView.alignment = .fill
         stackView.distribution = .fill
         stackView.axis = .vertical
-        stackView.spacing = self.progressViewSpacing
-        stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.spacing = self.progressViewAndTitleSpacing
         return stackView
     }()
     
